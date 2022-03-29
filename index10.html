@@ -1,0 +1,11 @@
+<!--Exercícios 10  -->
+<script>
+    var valorInicial =parseInt(prompt("Qual numero você quer inicial sua calculadora de PA ?"))
+    var raiz = parseInt(prompt("Digite o numero da raiz que deseja ?"));
+    var resultado = [valorInicial];
+    for (i=1; i<10;i++){
+        valorInicial += raiz
+        resultado.push(valorInicial)
+    }
+    alert("Seu resultado com 10 termo retornou os seguintes numeros: " +resultado)
+</script>
